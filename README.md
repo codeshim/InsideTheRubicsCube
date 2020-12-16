@@ -9,8 +9,8 @@
 
 
 ## 프로젝트 링크   
-[영상링크]:https://player.vimeo.com/video/487940565?autoplay=1&amp;loop=0&amp;rel=0  
-[웹전시링크]:https://sbart-n.com/Exhibition2/index.html  
+[영상링크]:(https://player.vimeo.com/video/487940565?autoplay=1&amp;loop=0&amp;rel=0)  
+[웹전시링크]:(https://sbart-n.com/Exhibition2/index.html)  
 
   
 ## 담당 태스크 소개  
