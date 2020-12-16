@@ -20,5 +20,5 @@
 <img width="500" alt="rubics1" src="https://user-images.githubusercontent.com/76104907/102384032-97c6b000-400f-11eb-9e5c-cf2932b9cc7e.png">
 <img width="500" alt="rubics2" src="https://user-images.githubusercontent.com/76104907/102384207-cba1d580-400f-11eb-83f5-d7a88e011e1f.png">
 <img width="500" alt="rubics3" src="https://user-images.githubusercontent.com/76104907/102386800-ede92280-4012-11eb-9dd3-36d070b5999d.png">
-<img width="500" alt="rubics3" src="https://user-images.githubusercontent.com/76104907/102386969-27219280-4013-11eb-9193-8aca9d3d7e36.png">
+<img width="500" alt="rubics4" src="https://user-images.githubusercontent.com/76104907/102387078-4a4c4200-4013-11eb-8703-986bc13bde8f.png">
 </div>
