@@ -8,22 +8,17 @@
 2020.11.08 - 2020.11.30
 
 
-## 데모 링크   
+## 프로젝트 링크   
 [영상링크]:https://player.vimeo.com/video/487940565?autoplay=1&amp;loop=0&amp;rel=0  
 [웹전시링크]:https://sbart-n.com/Exhibition2/index.html  
 
-
   
 ## 담당 태스크 소개  
-- **Cardboard XR 플러그인 활용과 iOS Build**  
-iPhoneX에서 VR을 테스트해볼 수 있는 개발환경을 구축했고 Cardboard XR 플러그인을 활용하여 VR 테스트 빌드에 성공했습니다. 
-<div>
-<img width="1000" alt="iOSVRBuild" src="https://user-images.githubusercontent.com/76104907/102378479-34d21a80-4009-11eb-8250-a8c1092408ac.png">  
-</div>
-
-- **기존의 Retical Pointer를 개조하여 만든 GazeButton**  
-모바일 환경을 타겟으로 하고 있기 때문에 별도의 컨트롤러 없이 가상공간 속 요소들과 인터랙션하기 위해 GazeButton을 구현했습니다. GazeButton을 구현하는 과정에서 Google VR SDK의 Retical Pointer 쉐이더와 코드를 일정시간 응시하면 게이지바가 차도록 개조하여 사용했습니다.  
+- **뒤틀리는 공간 속에서 이동하는 플레이어 조작 스크립팅**  
+루빅스큐브 안의 공간을 플레이어가 돌아다닐 수 있게 만든 컨텐츠로 큐브들이 회전되고 재정렬되어도 중력이 플레이어의 아래 방향으로 작동해야하는 과제였다. 문제를 해결하기 위하여 플레이어의 Rigid Body의 Gravity 항목을 비활성화하고 구충돌과 Raycast를 통해 분별한 현재 올라서 있는 땅이나 사다리 오브젝트를 Parent로 설정하여 Parent 오브젝트의 회전값이나 위치값에 영향을 받지 않도록 했다. 그리고 플레이어가 땅에 있을 때 사다리와 일정거리 가까워지면 사다리에 올라타 수직이동을 할 것인지 묻고, 플레이어가 사다리에 있을 때 땅 위로 올라설 수 있는 거리에서 사다리에서 내려 수평이동을 할 것인지 묻는 것도 함께 구현했다.
 <div>
 <img width="500" alt="rubics1" src="https://user-images.githubusercontent.com/76104907/102384032-97c6b000-400f-11eb-9e5c-cf2932b9cc7e.png">
 <img width="500" alt="rubics2" src="https://user-images.githubusercontent.com/76104907/102384207-cba1d580-400f-11eb-83f5-d7a88e011e1f.png">
+<img width="500" alt="rubics3" src="https://user-images.githubusercontent.com/76104907/102386800-ede92280-4012-11eb-9dd3-36d070b5999d.png">
+<img width="500" alt="rubics3" src="https://user-images.githubusercontent.com/76104907/102386969-27219280-4013-11eb-9193-8aca9d3d7e36.png">
 </div>
